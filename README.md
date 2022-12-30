@@ -52,6 +52,27 @@
     chmod +x /usr/local/bin/docker-compose
     ```
 
+  c. 프로젝트 실행
+  
+  1. docker hub에서 이미지 다운로드
+    ```
+    docker pull wonwooo/rmsoft:latest
+    ```
+
+  2. docker-compose 파일 있는 경우, 해당 위치에서
+    ```
+    docker-compose up
+    ```
+        - background에서 daemon으로 실행하고 싶은 경우 -d 옵션
+        - background에서 실행되는 경우 로그가 보고 싶으면 docker-compose logs -f
+
+  3. docker-compose 파일이 없는 경우, git clone 후 해당 위치에서 실행
+    ```
+    git clone https://github.com/wonwooooo/rm_work.git
+    cd rm_work
+    docker-compose up
+    ```
+
 
 
 ## 4. ERD
