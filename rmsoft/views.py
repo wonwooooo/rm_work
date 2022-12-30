@@ -92,16 +92,3 @@ def order(request):
         return JsonResponse({"total_order" : total_order, "list" : order_list}, safe=False)
 
 
-# def order(request):
-#     if request.method == "GET":
-#         order_list = []
-#         order = Order.objects.all()
-#         product = Product.objects.all()
-#         client = Client.objects.all()
-
-#         for o in order:
-#             order_list.append({"o_p_id" : o_p_id,
-#                                 컬럼2 : 컬럼이름값,실제값})
-#             total_order += total_order
-#         return JsonResponse({고정된형태})
-
