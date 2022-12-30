@@ -77,3 +77,8 @@
 
 ## 4. ERD
 ![image](https://user-images.githubusercontent.com/74032009/210040972-506af754-c1f9-44d3-bea5-ba0d4599aaaa.png)
+
+
+
+## 5. API 구현
+  https://serious-tenor-375.notion.site/RMSoft_-c64549dc6c8b42a1be93451422021229
